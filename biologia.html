@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Biología — SciVoces</title>
+<meta name="description" content="Entrevistas científicas de biología con autores de artículos publicados en revistas internacionales.">
+<meta property="og:title" content="Biología — SciVoces">
+<meta property="og:description" content="Entrevistas científicas de biología con autores de artículos publicados en revistas internacionales.">
+<meta property="og:type" content="website">
+<link rel="canonical" href="https://scivoces.netlify.app/ciencias/biologia.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/styles.css">
+
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="/">
+      <span class="brand-mark">SV</span>
+      <span>SciVoces</span>
+    </a>
+    <nav>
+      <button class="menu-toggle" aria-label="Abrir menú"><span></span><span></span><span></span></button>
+      <div class="nav-links">
+        <a href="/">Home</a>
+        <a href="/ciencias/matematicas.html">Matemáticas</a>
+        <a href="/ciencias/fisica.html">Física</a>
+        <a href="/ciencias/quimica.html">Química</a>
+        <a href="/ciencias/biologia.html">Biología</a>
+        <a href="/ciencias/tecnologia.html">Tecnología</a>
+        <a href="/about.html">About Us</a>
+        <a class="btn btn-primary" href="/#donate" style="margin-left:.5rem">❤ Donate Now</a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<section class="cat-header">
+  <div class="container">
+    <span class="eyebrow">Categoría</span>
+    <h1>Biología</h1>
+    <p>Biología molecular, ecología, evolución, microbioma y biomedicina.</p>
+  </div>
+</section>
+<section>
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <span class="eyebrow">Entrevistas</span>
+        <h2>De más reciente a más antigua</h2>
+      </div>
+    </div>
+    <div id="cat-grid" class="grid"></div>
+  </div>
+</section>
+<script>document.addEventListener('DOMContentLoaded',()=>renderCategory('cat-grid','biologia'));</script>
+
+<footer class="footer">
+  <div class="container">
+    <div>© 2026 SciVoces — Entrevistas a científicos del mundo.</div>
+    <div><a href="/about.html">About Us</a> · <a href="/#contact">Contacto</a> · <a href="/#donate">Donate</a></div>
+  </div>
+</footer>
+<script src="/js/main.js"></script>
+</body>
+</html>
